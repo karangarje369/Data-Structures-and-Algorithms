@@ -61,7 +61,15 @@ int explainVectors(){
     qq.push_front(5);
     qq.emplace_front(6);
  }
- 
+ void explainStack(){
+    stack<int> st;
+    st.push(2);
+    st.emplace(5);
+    st.pop();
+    st.top();
+    st.empty();
+    
+ }
 int main() {
     explainVectors();
     return 0;
